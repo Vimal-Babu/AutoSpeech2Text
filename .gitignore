@@ -1,0 +1,18 @@
+
+### 2. **`.gitignore`**  
+To prevent unnecessary files from being uploaded, create a `.gitignore` file. Here’s a typical `.gitignore` for Python projects:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environment
+env/
+
+# System files
+.DS_Store
+Thumbs.db
