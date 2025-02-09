@@ -46,11 +46,14 @@ This project converts audio or video files to text using speech-to-text transcri
    Add it to your Windows Environment Variables under Path.
    On macOS/Linux:
 
-   bash
-   Copy
-   Edit
+
+    ```bash
    sudo apt update && sudo apt install ffmpeg -y  # Ubuntu/Debian
    brew install ffmpeg  # macOS (Homebrew)
+
+   ```
+   
+   
 
 ## Usage
 
