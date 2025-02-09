@@ -40,18 +40,16 @@ This project converts audio or video files to text using speech-to-text transcri
 
    On Windows:
 
-   Download ffmpeg-release-full.7z from: FFmpeg Release Builds
-   Extract the files and locate the bin folder.
-   Copy the path to the bin folder (e.g., C:\ffmpeg\bin).
-   Add it to your Windows Environment Variables under Path.
+      Download ffmpeg-release-full.7z from: FFmpeg Release Builds
+      Extract the files and locate the bin folder.
+      Copy the path to the bin folder (e.g., C:\ffmpeg\bin).
+      Add it to your Windows Environment Variables under Path.
+
    On macOS/Linux:
-
-
     ```bash
    sudo apt update && sudo apt install ffmpeg -y  # Ubuntu/Debian
    brew install ffmpeg  # macOS (Homebrew)
-
-   ```
+    ```
    
    
 
