@@ -32,7 +32,25 @@ This project converts audio or video files to text using speech-to-text transcri
 5. Install required dependencies:
    ```bash
    pip install -r requirements.txt
+
    ```
+
+6. Install FFmpeg (Required for Processing Audio/Video Files)
+   The program relies on FFmpeg for handling media files.
+
+   On Windows:
+
+   Download ffmpeg-release-full.7z from: FFmpeg Release Builds
+   Extract the files and locate the bin folder.
+   Copy the path to the bin folder (e.g., C:\ffmpeg\bin).
+   Add it to your Windows Environment Variables under Path.
+   On macOS/Linux:
+
+   bash
+   Copy
+   Edit
+   sudo apt update && sudo apt install ffmpeg -y  # Ubuntu/Debian
+   brew install ffmpeg  # macOS (Homebrew)
 
 ## Usage
 
